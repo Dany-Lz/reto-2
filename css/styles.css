@@ -110,7 +110,7 @@ body {
 .formulario__fieldset {
   border: 1px solid #999;
   padding: 20px;
-  background-color: #d5e6f5;
+  background-color: transparent;
 }
 
 .formulario__legend {
@@ -198,12 +198,6 @@ body {
 
   .contenido {
     padding: 20px;
-  }
-
-  .formulario__fieldset {
-    border: 1px solid #999;
-    padding: 20px;
-    background-color: #d5e6f5;
   }
 
   .campo__input {
