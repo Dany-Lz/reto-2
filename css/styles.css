@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding: 20px;
+    padding: 0;
     border-bottom: 4px solid #1C6087;
     width: 100%;
     overflow: hidden;
@@ -37,9 +37,9 @@ body {
 }
 
 .header__banner {
-    width: 100%;       
-    height: auto;     
-    display: block;     
+    width: 100%;
+    height: auto;
+    display: block;
     object-fit: cover;
 }
 
