@@ -110,7 +110,7 @@ body {
 .formulario__fieldset {
     border: 1px solid #999;
     padding: 20px;
-    background-color: #fff;
+    background-color: #D5E6F5;
 }
 
 .formulario__legend {
@@ -169,20 +169,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-    }
-    
-    .header__titulo {
-        font-size: 1.5rem;
-    }
-    
-    .header__logo {
-        height: 60px;
-    }
-    
+
     .cuerpo {
         flex-direction: column;
     }
