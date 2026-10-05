@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de registro para el sitio de Mozilla Firefox.">
+    <meta name="keywords" content="formulario, registro, Mozilla Firefox">
+    <meta name="author" content="Danilo Clausell Sánchez">
+    <title>Formulario de Registro | Mozilla Firefox</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        
+        <header class="header">
+            <img src="assets/img/banner.jpg" 
+                 alt="Mozilla Firefox" 
+                 class="header__banner">
+        </header>
+
+        <div class="cuerpo">
+            
+            <main class="contenido">
+                <h2>Formulario de Registro:</h2>
+                
+                <form id="form-registro" class="formulario" novalidate>
+                    
+                    <fieldset class="formulario__fieldset">
+                        <legend class="formulario__legend">Entrada de datos</legend>
+                        
+                        <div class="campo">
+                            <label for="nombre" class="campo__label">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" 
+                                   class="campo__input">
+                            <span class="campo__error" id="error-nombre"></span>
+                        </div>
+
+                        <div class="campo">
+                            <label for="ci" class="campo__label">CI</label>
+                            <input type="text" id="ci" name="ci" 
+                                   class="campo__input">
+                            <span class="campo__error" id="error-ci"></span>
+                        </div>
+
+                        <div class="campo">
+                            <label for="contrasena" class="campo__label">Contraseña</label>
+                            <input type="password" id="contrasena" name="contrasena" 
+                                   class="campo__input">
+                            <span class="campo__error" id="error-contrasena"></span>
+                        </div>
+
+                        <div class="campo">
+                            <label for="confirmacion" class="campo__label">Confirmación</label>
+                            <input type="password" id="confirmacion" name="confirmacion" 
+                                   class="campo__input">
+                            <span class="campo__error" id="error-confirmacion"></span>
+                        </div>
+
+                        <div class="formulario__botones">
+                            <button type="submit" class="boton">Enviar</button>
+                            <button type="reset" class="boton">Limpiar</button>
+                        </div>
+                    </fieldset>
+                    
+                </form>
+            </main>
+
+            <nav class="menu">
+                <a href="index.html" class="menu__enlace">Inicio</a>
+                <a href="formulario.html" class="menu__enlace menu__enlace--activo">Formulario de registro</a>
+            </nav>
+            
+        </div>
+
+        <footer class="footer">
+            <p>
+                Evaluación Final realizada por 
+                <a href="#" class="footer__enlace">Nombre estudiante</a>. 
+                Estándares web empleados: XHTML 1.0 Strict y CSS
+            </p>
+        </footer>
+        
+    </div>
+
+    <script src="js/validacion.js"></script>
+</body>
+</html>
