@@ -110,7 +110,7 @@ body {
 .formulario__fieldset {
   border: 1px solid #999;
   padding: 20px;
-  background-color: transparent;
+  background-color: #d5e6f5;
 }
 
 .formulario__legend {
